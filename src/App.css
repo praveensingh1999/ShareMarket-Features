@@ -1,0 +1,61 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 35px;
+  
+}
+
+.list-items{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  
+  
+
+}
+.price1{
+  margin-right: 50px;
+}
+.items{
+  display: flex;
+  gap: 50px;
+}
+.searchbar input{
+   background-color: #1A1A1C;
+   color: #FFFFFF;
+   border: 2px solid #8E8E8E;
+   width:586px;
+   height: 39px;
+   padding-left: 20px;
+
+}
+.sortmarket input{
+  background-color: #1A1A1C;
+   color: #FFFFFF;
+   border: 2px solid #8E8E8E;
+   width:150px;
+   height: 39px;
+   padding-left: 20px;
+}
+.sortpercentage input {
+   background-color: #1A1A1C;
+   color: #FFFFFF;
+   border: 2px solid #8E8E8E;
+   width:150px;
+   height: 39px;
+   padding-left: 20px;
+}
+.coin{
+  display: flex;
+  gap: 20px;
+}
+.item-data{
+  background-color: #1A1A1C;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+}
