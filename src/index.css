@@ -11,7 +11,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 10px;
+  padding: 0px;
   background-color: #121212;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@ body{
 .item-data {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 120px;
   border-bottom: 1px solid #333;
   padding-bottom: 8px;
 }
@@ -41,19 +41,9 @@ body{
   border-radius: 50%;
 }
 
-.coin-name {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
 
-.coin-symbol {
-  margin: 0;
-  font-size: 0.9rem;
-  color:#FFFFFF;
-  text-transform: uppercase;
-}
 
+.coin-name,
 .price,
 .market-cap,
 .percentage-change,
@@ -87,24 +77,15 @@ body{
     padding-bottom: 12px;
   }
 
-  .name-symbol {
-    flex: none;
-    gap: 8px;
-  }
+ 
 
   .coin-image {
     width: 18px;
     height: 18px;
   }
 
-  .coin-name {
-    font-size: 1rem;
-  }
 
-  .coin-symbol {
-    font-size: 0.8rem;
-  }
-
+.coin-name,
   .price,
   .market-cap,
   .percentage-change,

@@ -41,7 +41,7 @@ function Listitem({list}) {
               
             </div>
              <div>
-                  <h3 className="price">{item.symbol.toUpperCase()}</h3>
+                  <h3 className="coin-name">{item.symbol.toUpperCase()}</h3>
               </div>
             <div className="price">{formatPrice(item.current_price)}</div>
             <div className="price">{formatPrice(item.total_volume)}</div>
